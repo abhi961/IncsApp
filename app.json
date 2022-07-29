@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "NavMart-app",
+    "slug": "NavMart-app",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/incs-icon.png",
+    "splash": {
+      "image": "./assets/incs-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "permissions": [],
+      "package": "com.navmart.navmart",
+      "versionCode": 5,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/incs-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+      
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
